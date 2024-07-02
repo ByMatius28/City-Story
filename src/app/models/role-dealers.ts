@@ -2,7 +2,7 @@
 export class RoleDealer1  {
     private storyIndex: number = 0;
     private storyParts: string[] = [
-      " Los Dealers son fundamentales en las ventas de la ciudad.",
+      " Los Vendedores de mari son fundamentales en las ventas de la ciudad.",
       " Están involucrados en: las ventas de sustacias ilicitas",
       " Realizan actividades ilegales como: Venta de drogas, Contrabando."
     ];
@@ -49,7 +49,7 @@ export class RoleDealer1  {
   export class RoleDealer2  {
     private storyIndex: number = 0;
     private storyParts: string[] = [
-      " La vida de un Dealer está llena de riesgos.",
+      " La vida de un Vendedor de mari está llena de riesgos.",
       "Están constantemente en alerta.",
       " Su día a día incluye: Negociaciones peligrosas, Evasión de la ley."
     ];
