@@ -1,0 +1,101 @@
+<div nz-row [nzGutter]="16">
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="roleDealer1?.name" [nzExtra]="roleDealer1?.description">
+        <p>{{ currentStoryPartDealer1 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(roleDealer1)">Siguiente parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(roleDealer1)">Reiniciar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="roleDealer2?.name" [nzExtra]="roleDealer2?.description">
+        <p>{{ currentStoryPartDealer2 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(roleDealer2)">Siguiente parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(roleDealer2)">Reiniciar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="roleDoctor1?.name" [nzExtra]="roleDoctor1?.description">
+        <p>{{ currentStoryPartDoctor1 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(roleDoctor1)">Siguiente parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(roleDoctor1)">Reiniciar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="roleDoctor2?.name" [nzExtra]="roleDoctor2?.description">
+        <p>{{ currentStoryPartDoctor2 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(roleDoctor2)">Siguiente parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(roleDoctor2)">Reiniciar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="roleFriend1?.name" [nzExtra]="roleFriend1?.description">
+      <p> {{ currentStoryPartFriend1 }}</p>
+      <button nz-button nzType="primary" (click)="displayNextPart(roleFriend1)">Siguiente parte</button>
+      <button nz-button nzType="default" (click)="resetRoleStory(roleFriend1)">Reiniciar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="roleFriend2?.name" [nzExtra]="roleFriend2?.description">
+        <p> {{ currentStoryPartFriend2 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(roleFriend2)">Siguiente parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(roleFriend2)">Reiniciar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="roleNarco1?.name" [nzExtra]="roleNarco1?.description">
+      <p> {{ currentStoryPartNarco1 }}</p>
+      <button nz-button nzType="primary" (click)="displayNextPart(roleNarco1)">Siguiente Parte</button>
+      <button nz-button nzType="default" (click)="resetRoleStory(roleNarco1)">Reinicar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="roleNarco2?.name" [nzExtra]="roleNarco2?.description">
+        <p> {{ currentStoryPartNarco2 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(roleNarco2)">Siguiente Parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(roleNarco2)">Reinicar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="rolePolice1?.name"  [nzExtra]="rolePolice1?.description">
+        <p> {{ currentStoryPartPolice1 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(rolePolice1)">Siguiente Parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(rolePolice1)">Reinicar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="rolePolice2?.name" [nzExtra]="rolePolice2?.description">
+        <p> {{ currentStoryPartPolice2 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(rolePolice2)">Siguiente Parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(rolePolice2)">Reinicar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="roleTeacher1?.name" [nzExtra]="roleTeacher1?.description">
+        <p> {{ currentStoryPartTeacher1 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(roleTeacher1)">Siguiente Parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(roleTeacher1)">Reinicar historia</button>
+        </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="roleTeacher2?.name" [nzExtra]="roleTeacher2?.description">
+        <p> {{ currentStoryPartTeacher2 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(roleTeacher2)">Siguiente parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(roleTeacher2)">Reinicar parte</button>
+        </nz-card>
+    </div> 
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="roleTeen1?.name"  [nzExtra]="roleTeen1?.description">
+        <p> {{ currentStoryPartTeen1 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(roleTeen1)">Siguiente parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(roleTeen1)"> Reinicar parte</button>
+      </nz-card>
+      </div>
+      <div nz-col nzSpan="12">
+        <nz-card [nzTitle]="roleTeen2?.name" [nzExtra]="roleTeen2?.description">
+          <p> {{ currentStoryPartTeen2 }}</p>
+          <button nz-button nzType="primary" (click)="displayNextPart(roleTeen2)">Siguiente parte</button>
+          <button nz-button nzType="default" (click)="resetRoleStory(roleTeen2)">Reinicar parte</button>
+          </nz-card>
+     </div>
+    
+  </div>
