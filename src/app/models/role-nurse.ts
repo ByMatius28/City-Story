@@ -36,7 +36,7 @@ export class RoleNurse1 {
       if (this.storyIndex < this.storyParts.length) {
         return this.storyParts[this.storyIndex++];
       } else {
-        return 'Fin de la historia.';
+        return 'Fishi Him.';
       }
     }
   
@@ -83,7 +83,7 @@ export class RoleNurse1 {
       if (this.storyIndex < this.storyParts.length) {
         return this.storyParts[this.storyIndex++];
       } else {
-        return 'Fin de la historia.';
+        return 'Fishi Him.';
       }
     }
   

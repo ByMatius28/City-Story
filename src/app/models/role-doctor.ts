@@ -37,7 +37,7 @@ export class RoleDoctor1 {
     if (this.storyIndex < this.storyParts.length) {
       return this.storyParts[this.storyIndex++];
     } else {
-      return 'Fin de la historia.';
+      return 'Fishi Him.';
     }
   }
 
@@ -85,7 +85,7 @@ export class RoleDoctor2 {
     if (this.storyIndex < this.storyParts.length) {
       return this.storyParts[this.storyIndex++];
     } else {
-      return 'Fin de la historia.';
+      return 'Fishi Him.';
     }
   }
 

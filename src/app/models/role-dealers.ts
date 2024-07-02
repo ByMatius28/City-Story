@@ -3,7 +3,7 @@ export class RoleDealer1  {
     private storyIndex: number = 0;
     private storyParts: string[] = [
       " Los Dealers son fundamentales en las ventas de la ciudad.",
-      " Están involucrados en: las ventas",
+      " Están involucrados en: las ventas de sustacias ilicitas",
       " Realizan actividades ilegales como: Venta de drogas, Contrabando."
     ];
   
@@ -37,7 +37,7 @@ export class RoleDealer1  {
       if (this.storyIndex < this.storyParts.length) {
         return this.storyParts[this.storyIndex++];
       } else {
-        return 'Fin de la historia.';
+        return 'Fishi Him.';
       }
     }
   
@@ -84,7 +84,7 @@ export class RoleDealer1  {
       if (this.storyIndex < this.storyParts.length) {
         return this.storyParts[this.storyIndex++];
       } else {
-        return 'Fin de la historia.';
+        return 'Fishi Him.';
       }
     }
   
